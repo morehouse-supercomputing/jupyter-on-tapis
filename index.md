@@ -18,7 +18,7 @@ This guide walks you through starting an interactive JupyterLab session on a TAC
 | System | Vista (GPU node) |
 | Allocation | Handled automatically by the app |
 
-> **Vista only for now.** This app is locked to Vista. Running Jupyter on another machine would require a separate app registered for that system plus an allocation there, neither of which exists yet.
+> **Vista only for now.** This app runs on Vista.
 
 ---
 
