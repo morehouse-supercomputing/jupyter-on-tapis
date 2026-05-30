@@ -1,0 +1,101 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Morehouse College colors: Maroon and White
+.page-header {
+  background-image: linear-gradient(120deg, #4a0000, #800000, #4a0000);
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: #800000;
+  }
+
+  a {
+    color: #800000;
+
+    &:hover {
+      color: #5c0000;
+    }
+  }
+}
+
+.task-list-item {
+  list-style-type: none;
+}
+
+.btn {
+  border-color: #fff;
+  color: #fff;
+
+  &:hover {
+    background-color: #fff;
+    color: #800000;
+    border-color: #fff;
+  }
+}
+
+// OS selector tabs (Mac / Linux / Windows)
+.os-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 1.5rem 0 0.5rem 0;
+  border-bottom: 2px solid #800000;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+  padding-top: 0.5rem;
+}
+
+.os-tab {
+  appearance: none;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  color: #555;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  margin-right: 4px;
+  border-radius: 6px 6px 0 0;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.os-tab:hover {
+  background: #ebebeb;
+  color: #800000;
+}
+
+.os-tab.active {
+  background: #800000;
+  color: #fff;
+  border-color: #800000;
+}
+
+.os-tab:focus {
+  outline: 2px solid #800000;
+  outline-offset: 2px;
+}
+
+.os-tab-hint {
+  width: 100%;
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+// Visibility rules driven by a class on <body>
+.os-only { display: none; }
+
+body.os-mac     .os-only.os-mac     { display: block; }
+body.os-linux   .os-only.os-linux   { display: block; }
+body.os-windows .os-only.os-windows { display: block; }
+
+// Default before JS runs: show macOS
+body:not(.os-mac):not(.os-linux):not(.os-windows) .os-only.os-mac { display: block; }

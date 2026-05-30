@@ -1,0 +1,8 @@
+title: Launching Jupyter via Tapis
+description: How to launch Jupyter on TACC Vista through the Morehouse Tapis web interface
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+exclude:
+  - README.md
