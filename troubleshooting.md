@@ -79,4 +79,4 @@ and confirm you can see `tap-ilogin.sh`. If you can see it, staging will work.
 
 - **TACC Documentation:** [docs.tacc.utexas.edu](https://docs.tacc.utexas.edu/)
 - **TACC Support Ticket:** [portal.tacc.utexas.edu/tacc-consulting](https://portal.tacc.utexas.edu/tacc-consulting)
-- **MSCF Questions:** [ashley.scruse@morehouse.edu](mailto:ashley.scruse@morehouse.edu)
+- **MSF Questions:** [ashley.scruse@morehouse.edu](mailto:ashley.scruse@morehouse.edu)

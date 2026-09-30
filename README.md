@@ -21,7 +21,7 @@ A step-by-step guide for launching Jupyter Notebook on TACC Vista through the **
 ## Related guides
 
 - [Launching Jupyter on HPC](https://morehouse-supercomputing.github.io/jupyter-on-hpc/) — SSH + idev and TACC Analysis Portal methods
-- [MSCF Getting Started](https://morehouse-supercomputing.github.io/mscf-getting-started/) — account setup, MFA, first job
+- [MSF Getting Started](https://morehouse-supercomputing.github.io/mscf-getting-started/) — account setup, MFA, first job
 
 ## Hosted site
 

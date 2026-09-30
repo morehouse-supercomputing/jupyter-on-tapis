@@ -26,7 +26,7 @@ This guide walks you through starting an interactive JupyterLab session on a TAC
 
 You need:
 
-1. A **TACC account** on the Morehouse allocation. If you do not have one, start with the [MSCF Getting Started guide](https://morehouse-supercomputing.github.io/mscf-getting-started/).
+1. A **TACC account** on the Morehouse allocation. If you do not have one, start with the [MSF Getting Started guide](https://morehouse-supercomputing.github.io/mscf-getting-started/).
 2. **Verified TMS keys** for the systems Tapis uses. This is the single most common reason the job fails, so it has its own check below.
 
 ### One-time check: verify your TMS keys
@@ -128,4 +128,4 @@ You are now in JupyterLab on a real GPU node.
 
 - **Stuck on a step?** See [Troubleshooting](troubleshooting.html).
 - **TACC Documentation:** [docs.tacc.utexas.edu](https://docs.tacc.utexas.edu/)
-- **MSCF Questions:** [ashley.scruse@morehouse.edu](mailto:ashley.scruse@morehouse.edu)
+- **MSF Questions:** [ashley.scruse@morehouse.edu](mailto:ashley.scruse@morehouse.edu)
